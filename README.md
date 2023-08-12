@@ -1,6 +1,4 @@
-## Digitalbhem Internship 
-
-##Hotel Booking Registration Form
+## Digitalbhem Internship : Hotel Booking Registration Form
 
 ## Introduction
 
