@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hotel Booking Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Hotel Booking Registration Form</h2>
+        <form id="booking-form">
+            <div class="form-group">
+                <label for="customerName">Customer Name:</label>
+                <input type="text" id="customerName" required>
+            </div>
+            <div class="form-group">
+                <label for="checkInDate">Check-in Date:</label>
+                <input type="date" id="checkInDate" required>
+            </div>
+            <div class="form-group">
+                <label for="totalDays">Total No of Days:</label>
+                <input type="number" id="totalDays" required>
+            </div>
+            <div class="form-group">
+                <label for="totalPersons">Total No of Persons:</label>
+                <input type="number" id="totalPersons" required>
+            </div>
+            <div class="form-group">
+                <label for="roomType">Room Type:</label>
+                <select id="roomType">
+                    <option value="delux">Delux Room</option>
+                    <option value="suite">Suite Room</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="amenities">Amenities:</label>
+                <select id="amenities" multiple>
+                    <option value="ac">AC</option>
+                    <option value="locker">Locker</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="advanceAmount">Advance Amount:</label>
+                <input type="number" id="advanceAmount" required>
+            </div>
+            <div class="form-group">
+                <button type="button" id="calculateButton">Calculate</button>
+            </div>
+            <div class="form-group">
+                <label for="totalRoomCost">Total Room Cost:</label>
+                <input type="text" id="totalRoomCost" readonly>
+            </div>
+            <div class="form-group">
+                <label for="totalAmenitiesCost">Total Amenities Cost:</label>
+                <input type="text" id="totalAmenitiesCost" readonly>
+            </div>
+            <div class="form-group">
+                <label for="roomRate">Room Rate:</label>
+                <input type="text" id="roomRate" readonly>
+            </div>
+            <div class="form-group">
+                <label for="balance">Balance:</label>
+                <input type="text" id="balance" readonly>
+            </div>
+            <div class="form-group">
+                <label for="totalCost">Total Cost:</label>
+                <input type="text" id="totalCost" readonly>
+            </div>
+            <div class="form-group">
+                <label for="additionalCharges">Additional Charges:</label>
+                <input type="text" id="additionalCharges" readonly>
+            </div>
+            
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
